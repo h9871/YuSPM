@@ -28,10 +28,8 @@ let package = Package(
                 .product(name: "Alamofire", package: "Alamofire"),
                 .product(name: "SnapKit", package: "SnapKit")
             ],
+            // 라이브러리 그룹 경로
             path: "Sources"
-//            cSettings: [
-//                .headerSearchPath("Sources")
-//            ]
         ),
         .testTarget(
             name: "YuSPMTests",
