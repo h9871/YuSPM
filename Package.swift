@@ -27,7 +27,12 @@ let package = Package(
                 // 외부 패키지 리스트
                 .product(name: "Alamofire", package: "Alamofire"),
                 .product(name: "SnapKit", package: "SnapKit")
-            ]),
+            ],
+            path: "Sources",
+            cSettings: [
+                .headerSearchPath("Sources")
+            ]
+        ),
         .testTarget(
             name: "YuSPMTests",
             dependencies: ["YuSPM"]),
