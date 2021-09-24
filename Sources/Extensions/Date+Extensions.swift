@@ -5,6 +5,8 @@
 //  Created by yuhyeonjae on 2021/09/24.
 //
 
+import Foundation
+
 /*
  Date 타입을 보다 간단히 사용하기 위한 확장
  */
@@ -260,10 +262,10 @@ extension Date {
 // MARK:- ㄴ 함수
 extension Date {
     /// 원하는 포맷으로 반환
-    public func getStringFormatter(_ dateFormat: String) -> String {
+    public func getStringFormatter(_ dateFormat: String, _ locale: String = "ko-KR") -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = dateFormat
-        dateFormatter.locale = Locale(identifier: GlobalVal.sharedInstance.nativeLocale)
+        dateFormatter.locale = Locale(identifier: locale)
         
         return dateFormatter.string(from: self)
     }

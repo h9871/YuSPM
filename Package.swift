@@ -28,10 +28,10 @@ let package = Package(
                 .product(name: "Alamofire", package: "Alamofire"),
                 .product(name: "SnapKit", package: "SnapKit")
             ],
-            path: "Sources",
-            cSettings: [
-                .headerSearchPath("Sources")
-            ]
+            path: "Sources"
+//            cSettings: [
+//                .headerSearchPath("Sources")
+//            ]
         ),
         .testTarget(
             name: "YuSPMTests",
