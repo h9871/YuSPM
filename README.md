@@ -3,11 +3,16 @@
 
 # 포함된 라이브러리
 1. [Alamofire] ~> 5.4.4 or newer
-2. [SnapKit] ~> 5.0.1 or newer  
+2. [SnapKit] ~> 5.0.1 or newer
+3. [RxSwift] ~> 6.2.0 exact
 
 # 업데이트
 
 ## 2021.09.24
+
+### 1.0.2
+- RxSwift Package 추가 (RxSwift, RxCocoa)
+
 ### 1.0.1
 - 데이터 사용을 위한 Package 수정
 - Date 확장 추가
