@@ -28,7 +28,8 @@ let package = Package(
                 // 외부 패키지 리스트
                 .product(name: "Alamofire", package: "Alamofire"),
                 .product(name: "SnapKit", package: "SnapKit"),
-                .product(name: "RxSwift", package: "RxSwift")
+                .product(name: "RxSwift", package: "RxSwift"),
+                .product(name: "RxCocoa", package: "RxSwift")
             ],
             // 라이브러리 그룹 경로
             path: "Sources"
