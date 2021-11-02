@@ -5,8 +5,15 @@
 1. [Alamofire] ~> 5.4.4 or newer
 2. [SnapKit] ~> 5.0.1 or newer
 3. [RxSwift] ~> 6.2.0 exact
+4. [RxDataSources] ~> 5.0.0 exact
 
 # 업데이트
+
+## 2021.11.02
+
+### 1.0.3
+- SnapKit, Alamofire macOS 최소에 맞추어 조건 추가 (v10.12)
+- RxDataSources Package 추가
 
 ## 2021.09.24
 
