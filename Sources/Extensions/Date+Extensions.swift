@@ -27,6 +27,21 @@ extension Date {
         return Calendar.current.component(.day, from: self)
     }
     
+    /// 시
+    public var hour: Int {
+        return Calendar.current.component(.hour, from: self)
+    }
+    
+    /// 분
+    public var minute: Int {
+        return Calendar.current.component(.minute, from: self)
+    }
+    
+    /// 초
+    public var second: Int {
+        return Calendar.current.component(.second, from: self)
+    }
+    
     /// 년 날짜 데이터
     public var yearDate: Date {
         var dateComponets = DateComponents()
